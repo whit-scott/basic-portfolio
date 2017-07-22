@@ -47,20 +47,94 @@ table {
 	border-spacing: 0;
 }
 
+
+
 body {
-	background-image: url("./assets/images/organic-tiles.png/");
+	background-image: url("./assets/images/organic-tiles.png");
+	width: 960px
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777
 }
+
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	width: 30%;
+	float: left;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
 
 h1 {
 		background-color: #4aaaa5;
 		color: white;
-		width: 
+		font-size: 26pt;
+		font-weight: bold;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		float: left;
+}
 
+nav {
+	float: right;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-color: #777777;
+}
 
+article {
+	clear: left;
+	float: left;
+	width: 450px;
+	
 
+}
+
+h2 {
+	font-size: 24pt;
+	background-color: white;
+	color: #4aaaa5;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+img {
+	float: left;
 }
 
 p {
+	float: left;
+	text-align: left;
 
 }
 
+aside {
+		color: #4aaaa5;
+		background-color: white;
+		width: 270px;
+		float: right;
+		padding-top: 65px;
+
+}
+
+
+section {
+	clear: both;
+	float: left;
+}
+
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #666666;
+	text-align: center;
+
+}
