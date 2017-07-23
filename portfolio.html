@@ -3,22 +3,24 @@
 <head>
 	<title>My First HTML</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel = "stylesheet" type = "text/css" href = "./assets/css/reset.css" />
+	<link rel = "stylesheet" type = "text/css" href = "./assets/css/style.css" />
 </head>
 
 <body>
 
-<header>
+<div class="wrapper">
+<div class="header">
 	<h1>Whit Scott</h1>
-</header>
+</div>
 
-<nav>
+<div class="nav">
 	<a href="./index.html">About</a> |
 	<a href="./portfolio.html">Portfolio</a> |
 	<a href="./contact.html">Contact</a>
-</nav>
+</div>
 
-<aside>
+<div class="connect">
 <h3>Connect with Me</h3>
 	<hr>
 	<a href="http://www.github.com">
@@ -30,46 +32,35 @@
 	<a href="http://www.stackoverflow.com">
   	<img src="./assets/images/if_overflow_386674.png" alt="StackOverflow" style="width:64px;height:64px;border:0;">
 	</a>
-</aside>
+</div>
 
-<section>
+<div class="portfolio">
 	<h2>Portfolio</h2>
 	<hr>
-
+	<div class="list>"
 	<ul style="list-style-type:none;">
 
-	<li><img src="./assets/images/Portfolio1.jpg" alt=""> </li>
-      
-      	<h2>Hangman</h2>
-	
+	<li><img src="./assets/images/Portfolio1.jpg" alt=""></li>
 
-	<li><img src="./assets/images/Portfolio2.jpg" alt=""> </li>
-      
-      	<h2>RPG Game</h2>
-	
+	<li><img src="./assets/images/Portfolio2.jpg" alt=""></li>
 
-	<li><img src="./assets/images/Portfolio3.jpg" alt=""> </li>
-      
-      	<h2>Trivia Game</h2>
+	<li><img src="./assets/images/Portfolio3.jpg" alt=""></li>
 
+	<li><img src="./assets/images/Portfolio4.jpg" alt=""></li>
 
-	<li><img src="./assets/images/Portfolio4.jpg" alt=""> </li>
+	<li><img src="./assets/images/Portfolio5.jpg" alt=""></li>
       
-      	<h2>Rutgers Info Widget</h2>
-	
-
-	<li><img src="./assets/images/Portfolio5.jpg" alt=""> </li>
-      
-      <h2>Rock Paper Scissors</h2>
 
      </ul>
-</section>
+     </div>
+</div>
+</div>
 
- <footer>
+ <div id="footer">
 
  	&copy;2017 Whit Scott
 
- </footer>
+ </div>
 
 </body>
 </html>
